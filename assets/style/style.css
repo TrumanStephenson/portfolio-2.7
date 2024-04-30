@@ -189,37 +189,6 @@ z-index: -1;
 }
 
 
-            /* Project 2 information 
-                This is to fall back on in case.
-            */
-
-            /* .project-2 {
-            display: flex;
-            background-color: #37384A;
-            color: #FFFFFF;
-            padding: 20px;
-            margin-bottom: 600px;
-            }
-
-            .project-2-text {
-            flex: 1;
-            padding-right: 20px;
-            }
-
-            .project-2 .project-2-info {
-            margin-left: 20px;
-            font-size: 1.5rem;
-            }
-
-            .preview-2 {
-            display: absolute;
-            width: 100%;
-            height: 50%;
-            margin: 15px;
-            margin-bottom: 75px;
-            } */
-
-
 /* Project 2 information */
 .project-2 {
     display: flex;
@@ -266,34 +235,6 @@ width: 100%;
 height: auto;
 z-index: -2;
 }
-
-
-/* Project 3 information */
-/* .project-3 {
-display: flex;
-background-color: #37384A;
-color: #FFFFFF;
-padding: 20px;
-margin-bottom: 550px;
-}
-
-.project-3-text {
-flex: 1;
-padding-right: 20px;
-}
-
-.project-3 .project-3-info {
-margin-left: 20px;
-font-size: 1.5rem;
-}
-
-.preview-3 {
-display: absolute;
-width: 100%;
-height: 50%;
-margin: 15px;
-margin-bottom: 75px;
-} */
 
 .project-3 {
     display: flex;
@@ -366,12 +307,10 @@ z-index: -1;
 }
 
 .preview-4 {
-    width: 800px;
-    /* height: 15%; */
-    /* margin: 3.5rem; */
-    /* margin-bottom: 1000px; */
+    width: 810px;
+    height: 6.5%; 
     position: absolute;
-    /* top: 10; */
+    top: 4300px;
     right: 50px;
 } 
 
@@ -382,36 +321,6 @@ z-index: -1;
     height: auto;
     z-index: -1;
     }
-
-/* 
- 
-.project-4-text {
-    flex: 1;
-    padding-right: 20px;
-}
-
-.preview-4 {
-    width: 800px;
-    height: 90%;
-    margin: 15px;
-    margin-bottom: 600px;
-    position: absolute; 
-    top: 0;
-    right: 50px;
-} 
-
-.preview-4 {
-    display: absolute;
-    width: 100%;
-    height: 50%;
-    margin: 15px;
-    margin-bottom: 75px;
-} 
-
-*/
-
-
-
 
 
 footer {
