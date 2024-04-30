@@ -285,7 +285,7 @@ body, html {
     width: 810px;
     height: 6.5%; 
     position: absolute;
-    top: 4300px;
+    top: 4325px;
     right: 50px;
 } 
 .project-5-container {
@@ -294,9 +294,6 @@ body, html {
     width: 100%;
     height: auto;
     z-index: -1;
-}
-#contact-header {
-    color: #37384A; /*Come back to this, unsure about the color*/
 }
 
 footer {
