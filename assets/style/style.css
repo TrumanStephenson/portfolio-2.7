@@ -6,333 +6,471 @@ body, html {
     background-color: #272C3F;
   }
   
-  /* This is for the main face of the screen. To start the user off with simplistic information */
-  .background-image {
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    text-align: center;
-  }
-  
-  .profile-picture-container {
-    border: 0;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 150px;
-    height: 150px;
-  }
-  
-  .profile-picture-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  
-  .menu {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 25px;
-  }
-  .menu a {
-    text-decoration: none;
-    color: white;
-    margin: 0 10px;
-    font-size: 20px;
-  }
-  .menu a:hover {
-    opacity: 0.7;
-    color: #5D7B5F;
-  }
-  
-  .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .name {
-    font-size: 50px;
-    margin-bottom: 20px;
-    color: white;
-  }
-  
-  
-  
-  /*Software Engineer*/
-  .description {
-    font-size: 20px;
-    margin-bottom: 40px;
-    color: white;
-  }
-  
-  /*Take a look at my work + Contact me buttons*/
-  .button {
-    text-decoration: none;
-    color: white;
-    margin: 0 10px;
-    font-size: 20px;
-  }
-  .button:hover {
-  /*   opacity: 0.7; */
-    color: #5D7B5F;
-  }
-  
-  /*This is for the repeating frog moon emblem*/
-  .top-bar {
-    height: 75px; /* Adjust the height as needed */
-    width: 100%;
-    background-image: url('https://i.pinimg.com/736x/56/90/54/569054a2bf3370abf4b0c3fd2e06bc0f.jpg');
-    background-repeat: repeat-x; 
-    background-size: contain;
-    position: absolute; 
-    top: 800px;
-    left: 0;
-    z-index: 1000; 
-  }
-  
-  
-  
-  
-  
-  /*Brief description about me*/
-  .about-me {
-    background-color: #37384A;
-    color: #FFFFFF;
-    font-weight: 300;
-    padding: 3.5rem;
-    font-size: 1.5rem;
-    margin-bottom: 400px;
-  }
-  
-  
-  /*Parallax image scrolling. Supposed to be, behind the About me and project 1.*/
-  .parallax-container {
-    position: relative;
-    overflow: hidden;
-    height: -100vh;
-  }
-  
-  .buffer-img-parallax {
-    position: absolute;
-    top: 300px;
-    left: 0;
-    width: 100%;
-    height: 750px; /* Adjust height as needed */
-    background-image: url('https://www.alaskaphotographics.com/wp-content/uploads/2023/01/17b-38449-2-Mt-Blackburn-and-Willow-Lake.jpg');
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-  }
-  
-  .about-me, .project-1, project-2, .project-3 {
-    z-index: 1;
-  }
-  
-  
-  
-  /* Project 1 information */
-  .project-1 {
+/* This is for the main face of the screen. To start the user off with simplistic information */
+.background-image {
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+text-align: center;
+}
+
+.profile-picture-container {
+border: 0;
+border-radius: 50%;
+overflow: hidden;
+width: 150px;
+height: 150px;
+}
+
+.profile-picture-container img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+.menu {
+position: absolute;
+top: 0;
+right: 0;
+margin: 25px;
+}
+.menu a {
+text-decoration: none;
+color: white;
+margin: 0 10px;
+font-size: 20px;
+}
+.menu a:hover {
+opacity: 0.7;
+color: #5D7B5F;
+}
+
+.content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.name {
+font-size: 50px;
+margin-bottom: 20px;
+color: white;
+}
+
+
+
+/*Software Engineer*/
+.description {
+font-size: 20px;
+margin-bottom: 40px;
+color: white;
+}
+
+/*Take a look at my work + Contact me buttons*/
+.button {
+text-decoration: none;
+color: white;
+margin: 0 10px;
+font-size: 20px;
+}
+.button:hover {
+/*   opacity: 0.7; */
+color: #5D7B5F;
+}
+
+/*This is for the repeating frog moon emblem*/
+.top-bar {
+height: 75px; /* Adjust the size */
+width: 100%;
+background-image: url('https://i.pinimg.com/736x/56/90/54/569054a2bf3370abf4b0c3fd2e06bc0f.jpg');
+background-repeat: repeat-x; 
+background-size: contain;
+position: absolute; 
+top: 863px; /* Adjust the height */
+left: 0;
+z-index: 1000; 
+}
+
+
+
+/*Brief description about me*/
+.about-me {
+background-color: #37384A;
+margin-bottom: 400px;
+}
+
+.about-me-content {
+color: #FFFFFF;
+font-weight: 300;
+padding: 3.5rem;
+font-size: 1.5rem;
+margin: 0 auto;
+max-width: 800px;
+}
+
+
+
+/*Parallax image scrolling. Supposed to be, behind the About me and project 1.*/
+.parallax-container {
+position: relative;
+overflow: hidden;
+height: -100vh;
+}
+
+.buffer-img-parallax {
+position: absolute;
+top: 300px;
+left: 0;
+width: 100%;
+height: 750px; /* Adjust height as needed */
+background-image: url('https://www.alaskaphotographics.com/wp-content/uploads/2023/01/17b-38449-2-Mt-Blackburn-and-Willow-Lake.jpg');
+background-size: cover;
+background-position: center;
+z-index: -1;
+}
+
+.about-me, .project-1, .project-3, .project-4 {
+z-index: 1;
+}
+
+
+
+/* Project 1 information */
+.project-1 {
     display: flex;
     background-color: #37384A;
     color: #FFFFFF;
     padding: 20px;
     margin-bottom: 800px;
+    position: relative; 
   }
   
-  .project-1-text {
+.project-1-text {
     flex: 1;
-    padding-right: 20px;
-  }
+  padding: 3.5rem; 
+  font-size: 1.5rem;
+  color: #FFFFFF; 
+  background-color: #37384A; 
+  margin-right: 400px; 
+  max-width: 800px; 
+}
   
-  .project-1 .project-1-info {
+.project-1 .project-1-info {
     margin-left: 20px;
     font-size: 1.5rem;
-  }
-  
-  .preview{
-    width: 100%;
-    height: 50%;
+}
+
+.preview-1 {
+    width: 800px;
+    height: 90%;
     margin: 15px;
-  } 
-  
-  /* This is for the Snow Plant flower image*/
-  .project-2-container {
-    position: absolute;
-    top: calc(29% - 300px); 
-    width: 100%;
-    height: auto;
-    z-index: -1;
-  }
-  
-  
-  /* Project 2 information */
-  .project-2 {
-    display: flex;
-    background-color: #37384A;
-    color: #FFFFFF;
-    padding: 20px;
     margin-bottom: 600px;
-  }
+    position: absolute; 
+    top: 0;
+    right: 50px; 
+} 
   
-  .project-2-text {
-    flex: 1;
-    padding-right: 20px;
-  }
-  
-  .project-2 .project-2-info {
-    margin-left: 20px;
-    font-size: 1.5rem;
-  }
-  
-  /* .preview-2 {
-    width: 100%;
-    height: 50%;
-    margin: 70px;
-    margin-bottom: 75px;
-  } */
-  .preview-2 {
-    display: absolute;
-    width: 100%;
-    height: 50%;
-    margin: 15px;
-    margin-bottom: 75px;
-  }
-  
-  /*Fire image*/
-  .project-3-container {
-    position: absolute;
-    top: calc(62% - 529px); 
-    width: 100%;
-    height: auto;
-    z-index: -2;
-  }
-  
-  
-  /* Project 3 information */
-  .project-3 {
+
+
+
+
+
+
+/* This is for the Snow Plant flower image*/
+.project-2-container {
+position: absolute;
+top: calc(29% - 300px); 
+width: 100%;
+height: auto;
+z-index: -1;
+}
+
+
+            /* Project 2 information 
+                This is to fall back on in case.
+            */
+
+            /* .project-2 {
+            display: flex;
+            background-color: #37384A;
+            color: #FFFFFF;
+            padding: 20px;
+            margin-bottom: 600px;
+            }
+
+            .project-2-text {
+            flex: 1;
+            padding-right: 20px;
+            }
+
+            .project-2 .project-2-info {
+            margin-left: 20px;
+            font-size: 1.5rem;
+            }
+
+            .preview-2 {
+            display: absolute;
+            width: 100%;
+            height: 50%;
+            margin: 15px;
+            margin-bottom: 75px;
+            } */
+
+
+/* Project 2 information */
+.project-2 {
     display: flex;
     background-color: #37384A;
     color: #FFFFFF;
     padding: 20px;
-    margin-bottom: 550px;
+    margin-bottom: 700px;
+    position: relative;
   }
   
-  .project-3-text {
+.project-2-text {
     flex: 1;
-    padding-right: 20px;
-  }
+  padding: 3.5rem; 
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  background-color: #37384A;
+  margin-right: 400px; 
+  max-width: 800px; 
+}
   
-  .project-3 .project-3-info {
+.project-2 .project-2-info {
     margin-left: 20px;
     font-size: 1.5rem;
-  }
-  
-  .preview-3 {
-    display: absolute;
-    width: 100%;
-    height: 50%;
+}
+
+.preview-2 {
+    width: 800px;
+    height: 90%;
     margin: 15px;
-    margin-bottom: 75px;
+    margin-bottom: 700px;
+    position: absolute; 
+    top: 0;
+    right: 50px; 
+} 
+
+
+
+
+/*Fire image*/
+.project-3-container {
+position: absolute;
+top: calc(62% - 700px); 
+width: 100%;
+height: auto;
+z-index: -2;
+}
+
+
+/* Project 3 information */
+/* .project-3 {
+display: flex;
+background-color: #37384A;
+color: #FFFFFF;
+padding: 20px;
+margin-bottom: 550px;
+}
+
+.project-3-text {
+flex: 1;
+padding-right: 20px;
+}
+
+.project-3 .project-3-info {
+margin-left: 20px;
+font-size: 1.5rem;
+}
+
+.preview-3 {
+display: absolute;
+width: 100%;
+height: 50%;
+margin: 15px;
+margin-bottom: 75px;
+} */
+
+.project-3 {
+    display: flex;
+    background-color: #37384A;
+    color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 800px;
+    position: relative;
   }
   
-  /* Target image */
-  .project-4-container {
+.project-3-text {
+    flex: 1;
+  padding: 3.5rem; 
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  background-color: #37384A;
+  margin-right: 400px; 
+  max-width: 800px; 
+}
+  
+.project-3 .project-3-info {
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+.preview-3 {
+    width: 800px;
+    height: 90%;
+    margin: 15px;
+    margin-bottom: 600px;
+    position: absolute; 
+    top: 0;
+    right: 50px; 
+} 
+
+
+
+
+/* Target image */
+.project-4-container {
+position: absolute;
+top: calc(78% - 529px); 
+width: 100%;
+height: auto;
+z-index: -1;
+}
+
+
+/*Project 4 information*/
+.project-4 {
+    display: flex;
+    background-color: #37384A;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.project-4-text {
+    flex: 1;
+    padding: 3.5rem; 
+    font-size: 1.5rem;
+    color: #FFFFFF; 
+    background-color: #37384A; 
+    margin-right: 400px; 
+    max-width: 800px; 
+}
+
+.project-4 .project-4-info {
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+.preview-4 {
+    width: 800px;
+    /* height: 15%; */
+    /* margin: 3.5rem; */
+    /* margin-bottom: 1000px; */
+    position: absolute;
+    /* top: 10; */
+    right: 50px;
+} 
+
+.project-5-container {
     position: absolute;
     top: calc(78% - 529px); 
     width: 100%;
     height: auto;
     z-index: -1;
-  }
-  
-  /*Project 4 information*/
-  .project-4 {
-    display: flex;
-    background-color: #37384A;
-    color: #FFFFFF;
-    padding: 20px;
-  }
-  
-  .project-4-text {
+    }
+
+/* 
+ 
+.project-4-text {
     flex: 1;
     padding-right: 20px;
-  }
-  
-  .project-4 .project-4-info {
-    margin-left: 20px;
-    font-size: 1.5rem;
-  }
-  
-  .preview-4 {
+}
+
+.preview-4 {
+    width: 800px;
+    height: 90%;
+    margin: 15px;
+    margin-bottom: 600px;
+    position: absolute; 
+    top: 0;
+    right: 50px;
+} 
+
+.preview-4 {
     display: absolute;
     width: 100%;
     height: 50%;
     margin: 15px;
     margin-bottom: 75px;
-  }
-  
-  
-  
-  footer {
-    background-color: #5D7B5F;
-    color: white;
-    padding: .5rem;
-    font-size: .9rem;
-    text-align: center;
-  }
-  
-  footer li {
-    margin-left: -37.5px;
-  }
-  
-  
-  ul {
-    /* This removes the annoying dots */
-    list-style-type: none;
-  }
-  
-  #contact a:link {
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* Frog image at the bottom. Wil take you to Roy Henry Vickers, the orginal artist. */
-  .tlingit-frog {
-    width: 6%;
+} 
+
+*/
+
+
+
+
+
+footer {
+background-color: #5D7B5F;
+color: white;
+padding: .5rem;
+font-size: .9rem;
+text-align: center;
+}
+
+footer li {
+margin-left: -37.5px;
+}
+
+
+ul {
+/* This removes the annoying dots */
+list-style-type: none;
+}
+
+#contact a:link {
+color: white;
+text-decoration: none;
+}
+
+/* Frog image at the bottom. Wil take you to Roy Henry Vickers, the orginal artist. */
+.tlingit-frog {
+width: 6%;
+position: absolute;
+right: 0;
+bottom: 0;
+margin-bottom: 10px;
+margin-right: 10px;
+} 
+
+
+
+/* CSS for mobile */
+/* 
+This needs a lot of work. When the screen shrinks. The runner will jump and attach to the top and stick there.
+*/
+@media screen and (max-width: 767px) {
+.top-bar {
+    height: 60px;
+    width: 100%;
     position: absolute;
-    right: 0;
-    bottom: 0;
-    margin-bottom: 10px;
-    margin-right: 10px;
-  } 
-  
-  
-  
-  /* CSS for mobile */
-  /* 
-  This needs a lot of work. When the screen shrinks. The runner will jump and attach to the top and stick there.
-  */
-  @media screen and (max-width: 767px) {
-    .top-bar {
-      height: 60px;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 1000;
-    }
-  
-    .about-me {
-      margin-top: 60px;
-    }
-    
-    .project-1 {
-      margin-top: 20px;
-    }
-  }
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.about-me {
+    margin-top: 60px;
+}
+
+.project-1 {
+    margin-top: 20px;
+}
+}
   
   
   
