@@ -91,7 +91,7 @@ body, html {
 /*Brief description about me*/
 .about-me {
     background-color: #37384A;
-    margin-bottom: 400px;
+    margin-bottom: 750px;
 }
 .about-me-content {
     color: #FFFFFF;
@@ -107,7 +107,7 @@ body, html {
 .parallax-container {
     position: relative;
     overflow: hidden;
-    height: -100vh;
+    /* height: -200vh; */
 }
 .buffer-img-parallax {
     position: absolute;
@@ -115,11 +115,16 @@ body, html {
     left: 0;
     width: 100%;
     height: 750px; /* Adjust height as needed */
-    background-image: url('https://www.alaskaphotographics.com/wp-content/uploads/2023/01/17b-38449-2-Mt-Blackburn-and-Willow-Lake.jpg');
     background-size: cover;
     background-position: center;
-    z-index: -1;
+    z-index: -6;
 }
+
+.buffer-img-parallax, img {
+    width: 100%;
+}
+
+
 .about-me, .project-1, .project-3, .project-4 {
     z-index: 1;
 }
@@ -137,12 +142,12 @@ body, html {
   
 .project-1-text {
     flex: 1;
-  padding: 3.5rem; 
-  font-size: 1.5rem;
-  color: #FFFFFF; 
-  background-color: #37384A; 
-  margin-right: 400px; 
-  max-width: 800px; 
+    padding: 3.5rem; 
+    font-size: 1.5rem;
+    color: #FFFFFF; 
+    background-color: #37384A; 
+    margin-right: 400px; 
+    max-width: 800px; 
 }
   
 .project-1 .project-1-info {
@@ -185,12 +190,12 @@ body, html {
   
 .project-2-text {
     flex: 1;
-  padding: 3.5rem; 
-  font-size: 1.5rem;
-  color: #FFFFFF;
-  background-color: #37384A;
-  margin-right: 400px; 
-  max-width: 800px; 
+    padding: 3.5rem; 
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    background-color: #37384A;
+    margin-right: 400px; 
+    max-width: 800px; 
 }
   
 .project-2 .project-2-info {
@@ -285,7 +290,7 @@ body, html {
     width: 810px;
     height: 6.5%; 
     position: absolute;
-    top: 4325px;
+    top: 4665px;
     right: 50px;
 } 
 .project-5-container {
