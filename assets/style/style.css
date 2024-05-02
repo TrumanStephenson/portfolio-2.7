@@ -172,7 +172,7 @@ body, html {
 /* This is for the Snow Plant flower image*/
 .project-2-container {
     position: absolute;
-    top: calc(29% - 300px); 
+    top: calc(29% - 175px);
     width: 100%;
     height: auto;
     z-index: -1;
